@@ -1,0 +1,28 @@
+/* RightPanelContainer.css - Custom Scrollbar Styles */
+
+/* Apply to both RightPanelContainer and CartProductList */
+.custom-scrollbar {
+    overflow-y: auto;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #f0b27a #f3f4f6; /* Thumb & Track */
+  }
+  
+  /* Custom Scrollbar for Webkit Browsers (Chrome, Safari) */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px; /* Slightly thicker scrollbar */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #f3f4f6; /* Light gray background */
+    border-radius: 10px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #f0b27a; /* Orange scrollbar */
+    border-radius: 5px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #eb984e; /* Darker orange on hover */
+  }
+  

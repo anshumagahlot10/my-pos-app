@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #FF8200;
+  --color-primary-hover: #E57200;
+  --color-secondary: #043275;
+  --color-secondary-hover: #0041A8;
+  --color-accent: #199E5D;
+  --color-accent-hover: #147C4A;
+  --color-danger: #E53935;
+  --color-danger-hover: #C62828;
+  --color-info: #69b9ff;
+  --color-info-hover: #1565C0;
+  --color-gray-light: #F5F5F5;
+  --color-gray-medium: #C4C4C4;
+  --color-gray-dark: #333333;
+  --color-text-primary: #212121;
+  --color-text-secondary: #757575;
+  --color-text-light: #FFFFFF;
+  
+}
+.bg-accent {
+  background-color: var(--color-accent); /* #199E5D */
+}
+.bg-accent-hover:hover {
+  background-color: var(--color-accent-hover); /* #147C4A */
+}
+
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+.bg-primary-hover:hover {
+  background-color: var(--color-primary-hover);
+}
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+.bg-secondary-hover:hover {
+  background-color: var(--color-secondary-hover);
+}
+.bg-danger {
+  background-color: var(--color-danger);
+}
+.bg-danger-hover:hover {
+  background-color: var(--color-danger-hover);
+}
+.text-primary {
+  color: var(--color-text-primary);
+}
+.text-secondary {
+  color: var(--color-text-secondary);
+}
+.text-light {
+  color: var(--color-text-light);
+}
+.bg-info {
+  background-color: var(--color-info);
+}
+.bg-info-hover:hover {
+  background-color: var(--color-info-hover);
+}
